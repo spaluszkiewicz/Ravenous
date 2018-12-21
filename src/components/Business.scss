@@ -5,7 +5,6 @@
   width: 16.66rem;
   margin: 0 .5rem 2.3rem .5rem;
 
-
   .image-container {
     height: 16.66rem;
     margin-bottom: 1rem;
@@ -17,17 +16,18 @@
     font-weight: 600;
   }
 }
+
 .Business-information {
   display: flex;
   justify-content: space-between;
 
-
-   p {
+    p {
     font-size: .88rem;
     font-weight: 300;
     line-height: 1rem;
-  }
+    }
 }
+
 .Business-address {
   display: flex;
   flex-direction: column;
@@ -39,15 +39,14 @@
   flex-direction: column;
   justify-content: space-between;
   text-align: right;
-
+}
 
   h3 {
-     color: #CCA353;
-     font-weight: 600;
-   }
+    color: #CCA353;
+    font-weight: 600;
 
-.rating {
-  font-size: .88rem;
-  line-height: 1rem;
+    .rating {
+      font-size: .88rem;
+      line-height: 1rem;
+    }
   }
-}

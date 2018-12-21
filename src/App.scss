@@ -5,6 +5,12 @@
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
+  p{
+    color:red
+  }
+  span{
+    color:pink
+  }
 }
 
 .App-header {
@@ -16,6 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
 }
 
 .App-link {
@@ -31,9 +38,13 @@
   }
 }
 
-p{
-  color: #7fd4f9;
-    span{
-    font-size: 20px;
+.test{
+  background-color: pink;
+  p{
+  color: #56b5f9;
+  }
+  span{
+    font-size: 40px;
+    color: yellow;
   }
 }
