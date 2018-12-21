@@ -1,24 +1,21 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.scss';
+import BusinessList from './components/BusinessList/BusinessList';
+import SearchBar from './components/SearchBar/SearchBar';
+
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header itemID="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <div className="test">
+    render() {
+        return (
+            <div className="App">
+                <h1>ravenous</h1>
+                <SearchBar/>
+                <BusinessList/>
+            </div>
 
-            <p>Alles Klar</p><br />
-            <span>Hello</span>
-
-          </div>
-
-        </header>
-      </div>
-    );
-  }
+        );
+    }
 }
 
 export default App;
